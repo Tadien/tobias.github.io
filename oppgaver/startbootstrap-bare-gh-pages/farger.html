@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+
+<body>
+
+
+<h1> Oppg 2. Endring av farge </h1>
+
+Velg farge for bakgrunn: <input type="color" id="farge">
+
+
+<button onclick="myFunction()">Endre bakgrunn</button>
+<br>
+<button onclick="minFunksjon()">Endre bakgrunn</button>
+
+<p id="demo"></p>
+
+
+<script>
+
+function myFunction() {
+    var x = document.getElementById("farge").value;
+     document.getElementById("demo").innerHTML = x;
+      document.body.style.backgroundColor = "red";
+	}
+
+
+function minFunksjon() {
+var x = document.getElementById("farge").value;
+document.getElementById("demo").innerHTML = x;
+document.body.style.backgroundColor = "blue";
+
+}
+
+</script>
+
+
+
+</body>
+
+
+<html>
